@@ -1,6 +1,11 @@
 using HelloWorld;
 
 
+//#######################################################
+//###
+//### Super simple get request based on helloworld.json
+//###
+//#######################################################
 namespace Confoo
 {
     public class Program

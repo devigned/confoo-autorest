@@ -1,5 +1,4 @@
 $:.unshift( File.expand_path('../', __FILE__) )
-
 require 'generated/azure_resources'
 
 subscription_id = ENV['AZURE_SUBSCRIPTION_ID']
