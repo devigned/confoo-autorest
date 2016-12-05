@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "7855666f99ecc69cbffe269d138fdcc1a023e22f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "CSharp/1.0.0": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.2.0"
+        },
+        "runtime": {
+          "CSharp.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.2.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "7.0.1",
+          "System.Runtime.Serialization.Primitives": "4.0.10"
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.0.10": {
+        "runtime": {
+          "lib/dotnet/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Rest.ClientRuntime/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5hrH4TiueEr/XMYvleilU86ezFR2Xsd99bP4Dz0ERGxU5EglvJYUgNT/Qe6nlHzzOM1e61d6MjbkD4UAlrCj/Q=="
+    },
+    "Newtonsoft.Json/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA=="
+    },
+    "System.Runtime.Serialization.Primitives/4.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NPc8DZIomf5tGjYtz/KTHI01IPcVlypfhCux32AbLPDjTotdvL8TpKRwMyQJ6Kh08yprRVH7uBD1PdJiuoFzag=="
+    }
+  }
+}
