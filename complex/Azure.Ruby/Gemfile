@@ -1,0 +1,4 @@
+source "https://rubygems.org"
+
+
+gem 'ms_rest_azure', '~> 0.6'

@@ -1,0 +1,26 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "HelloWorld",
+        "version": "1.0.0"
+    },
+    "host": "swaggersample.azurewebsites.net",
+    "paths": {
+        "/api/HelloWorld": {
+            "get": {
+                "operationId": "Greeting_Get",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Responds with a greeting from AutoRest",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
